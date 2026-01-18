@@ -1,16 +1,28 @@
-# do_dream
+# DoDream 두드림
 
-A new Flutter project.
+< 2026 배리어프리 공모전 프로젝트 >
 
-## Getting Started
+프로젝트명 : 두드림 - 촉각 기반의  음악 감상 지원 앱
+참가자 :
+PM: 프로젝트 총괄, API 설계, 디자인
+FromtEnd : UI/UX 설계, 프론트 연동, 디자인
+BackEnd : AI 활용, DB 설계
+일정 : 2026.01.10 ~ 
+주요 스택 : Dart, Python, TensorFlow, Firebase Firestore
 
-This project is a starting point for a Flutter application.
+## 주요 기능
 
-A few resources to get you started if this is your first Flutter project:
+1. 음악 분석 및 햅틱 변환 기능 : Librosa Library, Android Vibration API
+2. 시각적 피드백 제공 : PyVista Library
+3. 진동패턴학습 및 커스텀 기능
+4. 커뮤니티 기능
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 개발 일정
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1~2월 <사전 조사 단계> 해당 프로젝트 관련 기관 및 단체 자문을 통한 페르소나 정의, prototype 구현
+2~3월 <데모 버전 개발> 데모 버전 개발 및 기능 테스트 시작
+4~5월 <기획 마무리 단계> 요구사항 정의 및 기능 검토 최종, 프로젝트 계획 수립
+6-8월 <설계 단계> 음악 분석, 햅틱 알고리즘 설계, DB 구축
+9~10월 <개발 단계> AI 음악 입력 및 분석 기능 개발, UI 디자인 및 프론트 연동
+11월 <테스트 단계> 플레이스토어 업로드 및 수정, 앱 접근성 점검 및 최적화
+12~2월 <배포 및 최종조정 단계> 배포 준비 및 환경 설정, 피드백 및 버그 픽스
