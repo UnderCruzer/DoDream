@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096867473222",
+    "project_id": "dodream-87de4",
+    "storage_bucket": "dodream-87de4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096867473222:android:8b55c0f1573aeb15dbe747",
+        "android_client_info": {
+          "package_name": "com.dodream.do_dream"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcogEXb-NdSznNvgcHVdcYD5-u_04-XWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

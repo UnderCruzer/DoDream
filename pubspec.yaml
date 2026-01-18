@@ -1,0 +1,55 @@
+name: do_dream
+description: "do_dream"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  # 상태 관리 : 진동 세기 설정, 사용자 정보 공유
+  provider : ^6.1.1
+  # 오디오 입력 및 분석 : 마이크를 통해 소리를 실시간 스트림으로 입력 받음 / 입력된 소리의 주파수를 분석
+  pitch_detector_dart:
+  audio_waveforms: ^1.0.5
+  # 햅틱 피드백 : 진동세기 조절 및 패턴 구현
+  vibration: ^2.0.1
+
+  # 시각적 피드백 : 파동 애니메이션, 음악의 리듬에 맞춰 움직이는 효과
+  music_visualizer:
+
+  # firebase 활용
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+
+  # utility : 마이크 및 진동 사용 권한 요청
+  permission_handler: ^11.3.1
+
+flutter_launcher_icons:
+  android : "launcher_icon"
+  image_path: "assets/icon/dodream.jpg"
+  min_sdk_android: 21
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
